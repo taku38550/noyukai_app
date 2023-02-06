@@ -1,0 +1,64 @@
+<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">ユーザー新規登録</h2>
+
+        <%= form_with model: @user, url: root_path , local: true do |f| %>
+
+        <div class="field">
+          <%= f.label :nickname, "ニックネーム" %><br />
+          <%= f.text_field :nickname, id:"nickname" %>
+        </div>
+    
+        <div class="field">
+          <%= f.label :email, "メールアドレス" %><br />
+          <%= f.email_field :email, id:"user_email", autofocus: true, autocomplete: "email" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password, "パスワード（6文字以上）" %><br />
+          <%= f.password_field :password, id:"user_password", autocomplete: "new-password" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password_confirmation, "パスワード再入力" %><br />
+          <%= f.password_field :password_confirmation, id:"user_password_confirmation", autocomplete: "new-password" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :family_name, "苗字" %><br />
+          <%= f.text_field :family_name, id:"last-name" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :first_name, "名前" %><br />
+          <%= f.text_area :first_name, id:"first-name" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :family_name_kana, "苗字カナ（全角）" %><br />
+          <%= f.text_area :family_name_kana, id:"family-name-kana" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :first_name_kana, "名前カナ（全角）" %><br />
+          <%= f.text_area :first_name_kana, id:"first-name-kana" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :graduation_year, "卒業年次" %><br />
+          <%= f.text_area :graduation_year, class: :form__text, id:"graduation_year" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :cultivated_crops, "栽培品目" %><br />
+          <%= f.text_area :cultivated_crops, class: :form__text, id:"cultivated_crops" %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "新規登録", class: :form__btn  %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
