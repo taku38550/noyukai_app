@@ -11,7 +11,6 @@
 | first_name            | string | null: false               |
 | family_name_kana      | string | null: false               |
 | first_name_kana       | string | null: false               |
-| graduation_year       | date   | null: false               |
 | cultivated_crops      | string | null: false               |
 
 ### Association

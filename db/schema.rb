@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 2023_02_05_084552) do
     t.string "first_name", null: false
     t.string "family_name_kana", null: false
     t.string "first_name_kana", null: false
-    t.date "graduation_year", null: false
     t.string "cultivated_crops", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
