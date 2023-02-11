@@ -34,6 +34,9 @@ class PostsController < ApplicationController
     end
   end
 
+  def destory
+  end
+
   private
   def post_params
     params.require(:post).permit(:title, :text, :image).merge(user_id: current_user.id)
