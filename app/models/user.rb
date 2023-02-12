@@ -13,5 +13,5 @@ class User < ApplicationRecord
   validates :cultivated_crops, presence: true
        
   has_many :posts
-  
+  has_many :comments, dependent: :destroy
 end
