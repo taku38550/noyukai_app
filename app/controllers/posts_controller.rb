@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  before_action :authenticate_user!, except: [:index, :show]
+
   def index
     @posts = Post.all
   end
@@ -25,6 +27,9 @@ class PostsController < ApplicationController
 
   def edit
     @post = Post.find(params[:id])
+    unless @post.user_id == current_user.id 
+      redirect_to action: :index
+    end
   end
 
   def update
