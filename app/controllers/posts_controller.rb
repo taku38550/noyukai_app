@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
+  before_action :set_post, only: [:show, :edit, :update]
 
   def index
     @posts = Post.all
@@ -16,24 +17,20 @@ class PostsController < ApplicationController
    else
       render :new
    end
-
   end
 
   def show
-    @post = Post.find(params[:id])
     @comment = Comment.new
     @comments = @post.comments.includes(:user)
   end
 
   def edit
-    @post = Post.find(params[:id])
     unless @post.user_id == current_user.id 
       redirect_to action: :index
     end
   end
 
   def update
-    @post = Post.find(params[:id])
     if @post.update(post_params)
       redirect_to post_path
     else
@@ -49,7 +46,12 @@ class PostsController < ApplicationController
   end
 
   private
+
   def post_params
     params.require(:post).permit(:title, :text, :image).merge(user_id: current_user.id)
+  end
+
+  def set_post
+    @post = Post.find(params[:id])
   end
 end
