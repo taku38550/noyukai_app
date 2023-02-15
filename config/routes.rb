@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'posts/index'
   root to: "posts#index"
   resources :users, only: :show
+  resources :rooms, only: [:new, :create]
   resources :posts do
     resources :comments, only: :create
   end
