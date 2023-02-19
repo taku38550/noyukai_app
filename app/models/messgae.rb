@@ -1,2 +1,0 @@
-class Messgae < ApplicationRecord
-end
