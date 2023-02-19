@@ -71,8 +71,8 @@
 | room   | references | null: false, foreign_key: true |
 
 ### Association 
-belongs_to :user
-belongs_to :room
+- belongs_to :user
+- belongs_to :room
 
 
 ## messages テーブル
@@ -84,5 +84,5 @@ belongs_to :room
 | room    | references | null: false, foreign_key: true |
 
 ### association
-belongs_to :user
-belongs_to :room
+- belongs_to :user
+- belongs_to :room
