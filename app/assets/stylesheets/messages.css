@@ -25,8 +25,8 @@
 
 .create_room a {
   font-size: 10px;
-  color: deepskyblue;
-  border: 1px solid lightblue;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   padding: 14px;
   text-decoration: none;
 }
@@ -78,7 +78,7 @@
 }
 
 .messages {
-  background-color: #fafafa;
+  background-color: #ffffff;
   height: calc(100vh - 100px - 90px);
   padding-top: 46px;
   padding: 46px 40px 0;
@@ -110,12 +110,12 @@
 
 .message-content {
   font-size: 14px;
-  color: #434a54;
+  color: #434a56;
   margin-bottom: 40px;
 }
 
 .form {
-  background-color: #dddddd;
+  background-color: #ffffff;
   height: 90px;
   padding: 20px 40px;
   display: flex;
@@ -135,7 +135,7 @@
 }
 
 .form-submit {
-  background-color: #38AEF0;
+  background-color: #000000;
   border: none;
   color: white;
   font-size: 16px;

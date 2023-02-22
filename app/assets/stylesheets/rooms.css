@@ -7,7 +7,7 @@ h1 {
 
 h2 {
   margin-bottom: 10px;
-  color: #f05050;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -56,7 +56,7 @@ li {
   display: inline-block;
   padding: 12px 20px;
   color: #fff;
-  background-color: #38aef0;
+  background-color: #000000;
   border: 0;
 }
 .chat-room-form__field {

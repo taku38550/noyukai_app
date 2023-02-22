@@ -92,7 +92,7 @@ a {
 }
 
 .field{
-  margin: 10px 0;
+  margin: 1px 0;
 }
 
 .actions{
@@ -121,7 +121,7 @@ a {
 /* メイン */
 
 .greeting{
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .greeting__link{
   text-decoration: underline;
