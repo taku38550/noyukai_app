@@ -1,6 +1,6 @@
 h1 {
   letter-spacing: 2px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
@@ -92,4 +92,10 @@ select {
 
 .field_with_errors {
   display: contents;
+}
+
+.front {
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
 }
