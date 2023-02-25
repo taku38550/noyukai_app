@@ -22,6 +22,10 @@
           <p class="detail__message">
             <%= @post.title %>
           </p>
+          <p class="detail__title">記事の内容</p>
+          <p class="detail__message">
+            <%= @post.text %>
+          </p>
         </div>
       </div>
       <div class="post__comments">
@@ -29,7 +33,7 @@
         <% if user_signed_in? %>
           <%= form_with(model: [@post, @comment], local: true) do |f|%>
             <div class="field">
-              <%= f.label :content, "コメント" %><br />
+              <%= f.label :content, "この記事に対してのコメント" %><br />
               <%= f.text_field :content, id:"comment_content" %>
             </div>
             <div class="actions">

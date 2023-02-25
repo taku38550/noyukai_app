@@ -14,7 +14,8 @@
       <div class="inner">
         <div class="nav">
           <div class="nav__left">
-            <%= link_to "nouyoukai", root_path %>
+            <%= link_to image_tag("24210.png", class: :logo), root_path %>
+            <%= link_to "noyukai", root_path %>
           </div>
           <% if user_signed_in? %>
              <div class="nav__right"> 
@@ -33,7 +34,7 @@
     </header>
     <%= yield %>
     <footer class="footer">
-      <p class="copyright">Copyright © nouyoukai All rights reserved.</p>
+      <p class="copyright">Copyright © noyukai All rights reserved.</p>
     </footer>
   </body>
 </html>
