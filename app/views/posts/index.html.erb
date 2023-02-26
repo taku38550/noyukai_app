@@ -20,4 +20,9 @@
        <%= render partial: 'post', collection: @posts %>
     </div>
   </div>
+
+  <%= link_to("/posts/new", class: 'tweet-btn') do %>
+    <span class='tweet-btn-text'>投稿する</span>
+    <%= image_tag '24210.png' , size: '185x50' ,class: "tweet-btn-icon" %>
+  <% end %>
 </main>
