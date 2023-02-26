@@ -1,6 +1,15 @@
 <main class="main">
+  <%= link_to image_tag("タイトル画面.png", class: :front), root_path %>
+  <div class='title-contents'>
+    <h2 class='service-title'>
+      農家のための情報共有アプリ
+    </h2>
+    <p class='service-explain'>
+      noyukaiは農業従事者の近況報告やチャット会話が可能な情報共有アプリです
+    </p>
+  </div>
+
   <div class="inner">
-        <%= link_to image_tag("タイトル画面.png", class: :front), root_path %>
     <% if user_signed_in? %>
       <div class="greeting"> 
           <%= "こんにちは！、" %>
