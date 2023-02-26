@@ -1,3 +1,24 @@
-// Place all the styles related to the posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.title-contents {
+  width: 100vw;
+  background-image: image-url('\u30BF\u30A4\u30C8\u30EB\u753B\u9762.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5vh 15vw;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.service-title {
+  font-size: 8vh;
+}
+
+.service-explain {
+  font-size: 2.5vh;
+  line-height: 40px;
+}
