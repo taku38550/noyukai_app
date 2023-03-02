@@ -59,13 +59,18 @@ https://docs.google.com/spreadsheets/d/1EbCpU1G1IFgZS5SngBWiD57SY_EvcWtTFjLLj6yn
 
 [![Image from Gyazo](https://i.gyazo.com/9dff1f0b8a9f02cab6b058c6254e5ae4.gif)](https://gyazo.com/9dff1f0b8a9f02cab6b058c6254e5ae4)
 
+
 投稿された記事をクリックすることで、その記事の詳細ページに遷移できる。
+
 
 [![Image from Gyazo](https://i.gyazo.com/475f69e2d959025f04868dc6ea9d0acd.gif)](https://gyazo.com/475f69e2d959025f04868dc6ea9d0acd)
 
+
 ユーザー名をクリックすることで、そのユーザーの詳細ページに遷移できる。
 
+
 [![Image from Gyazo](https://i.gyazo.com/251ef0861af74a5724d65369c8bb97f0.gif)](https://gyazo.com/251ef0861af74a5724d65369c8bb97f0)
+
 
 「チャットを行う」ボタンをクリックすることでチャットルーム一覧ページに遷移し、各チャットルーム名をクリックするとチャット内容が表示される。
 
@@ -73,7 +78,7 @@ https://docs.google.com/spreadsheets/d/1EbCpU1G1IFgZS5SngBWiD57SY_EvcWtTFjLLj6yn
 
 
 # 実装予定の機能
-現在、いいね機能とクレジットカード決済機能の実装を検討中
+現在、いいね機能とクレジットカード決済機能の実装を検討中。
 
 投稿された記事にいいねを押したり、アプリ内でクレジットカード決済にて
 
@@ -120,6 +125,20 @@ https://docs.google.com/spreadsheets/d/1EbCpU1G1IFgZS5SngBWiD57SY_EvcWtTFjLLj6yn
 5.アプリを実行する
 
 % yarn start
+
+# 工夫したポイント
+
+トップページ上部に写真と簡単な説明文を掲載することで、
+
+どのようなアプリデーションであるかを一目見て分かるようにした。
+
+実装過程においてはこまめにcommitとデプロイを行い、
+
+エラーの発生や適切なビューが実装されているかを確認しながら行った。
+
+主にHTMLとCSS、ruby on rails、javascriptの技術を活用して作成した。
+
+
 
 
 
