@@ -59,14 +59,14 @@ https://docs.google.com/spreadsheets/d/1EbCpU1G1IFgZS5SngBWiD57SY_EvcWtTFjLLj6yn
 
 [![Image from Gyazo](https://i.gyazo.com/9dff1f0b8a9f02cab6b058c6254e5ae4.gif)](https://gyazo.com/9dff1f0b8a9f02cab6b058c6254e5ae4)
 
-
 投稿された記事をクリックすることで、その記事の詳細ページに遷移できる。
 
-[![Image from Gyazo](https://i.gyazo.com/e43b1d25b7431c957ce38716d09991f3.gif)](https://gyazo.com/e43b1d25b7431c957ce38716d09991f3)
+
+[![Image from Gyazo](https://i.gyazo.com/6ee35c4f85b361610d1c9b78f13954fa.gif)](https://gyazo.com/6ee35c4f85b361610d1c9b78f13954fa)
 
 ユーザー名をクリックすることで、そのユーザーの詳細ページに遷移できる。
 
-[![Image from Gyazo](https://i.gyazo.com/d8acace0c55b9f702e1d19c5fbd3ddb3.gif)](https://gyazo.com/d8acace0c55b9f702e1d19c5fbd3ddb3)
+[![Image from Gyazo](https://i.gyazo.com/57fd90c485305c67cd4f84c4fd294554.gif)](https://gyazo.com/57fd90c485305c67cd4f84c4fd294554)
 
 
 「チャットを行う」ボタンをクリックすることでチャットルーム一覧ページに遷移し、各チャットルーム名をクリックするとチャット内容が表示される。
