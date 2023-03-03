@@ -65,7 +65,7 @@ https://docs.google.com/spreadsheets/d/1EbCpU1G1IFgZS5SngBWiD57SY_EvcWtTFjLLj6yn
 
 ユーザー名をクリックすることで、そのユーザーの詳細ページに遷移できる。
 
-[![Image from Gyazo](https://i.gyazo.com/57fd90c485305c67cd4f84c4fd294554.gif)](https://gyazo.com/57fd90c485305c67cd4f84c4fd294554)
+[![Image from Gyazo](https://i.gyazo.com/95c5db77f75302516f784e986e83e295.gif)](https://gyazo.com/95c5db77f75302516f784e986e83e295)
 
 「チャットを行う」ボタンをクリックすることでチャットルーム一覧ページに遷移し、各チャットルーム名をクリックするとチャット内容が表示される。
 
